@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebac Shoes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="containerheader">
+        <h1>EBAC SHOES</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#sobre">Sobre a loja</a>
+                </li>
+                <li>
+                    <a href="#produtos">Produtos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="sobre">
+            <img src="./img/Fachada Loja de Tênis.jpg" alt="Loja Ebac Shoes">
+            <div class="sobre2">
+                <h2>Sobre a Loja</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aliquam vel dignissimos, ab amet sunt, soluta, adipisci sint saepe error cum. Eveniet nesciunt minus ad quas accusamus veniam ea alias.</p>
+            </div>
+        </section>
+
+        <h2 class="product">Produtos</h2>
+        <section id="produtos" class="products">
+            <article>
+                <img src="./img/Chuck Taylor All Star Artful Grunge Preto.jpg" alt="All Star Artful Grunge">
+                <h3>Chuck Taylor All Star Artful Grunge Preto</h3>
+                <p>Tênis All Star cano alto preto, disponível nos tamanhos: 37, 38, 39, 40, 42 e 44</p>
+                <button type="button">Compre Agora</button>
+            </article>
+            <article>
+                <img src="./img/Chuck Taylor All Star Vintage Athletic Marrom.jpg" alt="All Star Vintage Athletic Marrom">
+                <h3>Chuck Taylor All Star Vintage Athletic Marrom</h3>
+                <p>Tênis All Star cano baixo marrom, disponível nos tamanhos: 37, 38, 39, 40, 42 e 44</p>
+                <button type="button">Compre Agora</button>
+            </article>
+            <article>
+                <img src="./img/Platinum Tint and Desert Moss.jpg" alt="Platinum Tint and Desert Moss">
+                <h3>Nike Platinum Tint and Desert Moss</h3>
+                <p>Tênis Nike marrom, disponível nos tamanhos: 37, 38, 39, 40, 42 e 44</p>
+                <button type="button">Compre Agora</button>
+            </article>
+            <article>
+                <img src="./img/Tênis Nike Air Max Plus Masculino.jpg" alt="Air Max Plus Masculino">
+                <h3>Nike Air Max Plus</h3>
+                <p>Tênis Nike branco e preto, disponível nos tamanhos: 37, 38, 39, 40, 42 e 44</p>
+                <button type="button">Compre Agora</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ebac Shoes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        (function($) {
+            $(document).ready(function(){
+                $('.botao-menu').click(function(){
+                    $('.menu').slideToggle();
+                });
+            });
+        })(jQuery);
+    </script>
+</body>
+</html>
